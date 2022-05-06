@@ -16,7 +16,7 @@ const List = ({people, setPeople}) => {
             <h4>{name}</h4>
             <p>{age} years</p>
             <button className='btn' onClick={()=>remover(id)}>
-              remove
+              Remove
             </button>
           </div>
 
