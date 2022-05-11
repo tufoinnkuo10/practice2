@@ -1,5 +1,5 @@
 import React from 'react';
-
+// convert it to use state
 const List = ({people, setPeople}) => {
   const remover = (id)=>{
     console.log(id)
